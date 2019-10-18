@@ -8,8 +8,8 @@ int main(int argc, char *argv[]){
 	float resta;
 	float mult;
 	float div;
-	x=atoi(argv[1]);
-	y=atoi(argv[2]);
+	x=atof(argv[1]);
+	y=atof(argv[2]);
 
 	suma=x+y;
 	printf("%.2f\n", suma);
