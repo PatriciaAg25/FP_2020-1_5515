@@ -2,11 +2,11 @@
 #include <stdlib.h>
 
 int main(int argc, char *argv[]){
-	int lista[argc], suma=0;
+	float lista[argc], suma=0;
 	float promedio;
 
 	for (int i=1; i<argc; i++){
-	lista[i]=atoi(argv[i]);
+	lista[i]=atof(argv[i]);
 	}
 
 	for (int i=1; i<argc; i++){
